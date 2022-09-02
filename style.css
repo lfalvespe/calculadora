@@ -8,35 +8,37 @@
 }
 
 html {
-    height: 100vh;
+ 
+    background-color: white;
 }
 
 body {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: greenyellow;
     background-image: linear-gradient(45deg, #f01948, #3e3b92);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
 
 header {
-    background-color: #3e3b92;
-    margin-bottom: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height:100px;
+    width: 100vw;
+    background-color: #3e3b92a1;
     color: rgb(248, 248, 166);
     text-align: center;
-}
-
-main {
-    margin-top: 80px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.349) ;
+    padding-top: 30px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
 }
 
 
 table {
-    margin: auto;
+    max-height: 40%;
     background-color: rgba(0, 0, 0, 0.296);
     padding: 15px;
     border-radius: 10px;
@@ -63,8 +65,9 @@ button:hover {
 }
 
 button:active {
-    box-shadow: 0px 0px 15px rgb(248, 248, 166);
-    border:none
+    border:none;
+    background-color: #fa8da5;
+    
 }
 
 #tela {
@@ -77,16 +80,16 @@ button:active {
 }
 
 footer {
-    flex: 100%;
-    background-color: #3e3b92;
+    height: 100px;
+    width: 100vw;
+    background-color: #3e3b92a1;
     color: white;
-    margin-top: 90px;
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
     line-height: 20px;
-    padding-top: 20px;
-    padding-bottom: 24px;
- 
+    padding-top: 30px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.26);
+
 }
 
 footer a {
