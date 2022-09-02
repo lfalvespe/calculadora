@@ -28,7 +28,7 @@ header {
 }
 
 main {
-    margin-top: 101px;
+    margin-top: 80px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -81,7 +81,7 @@ footer {
     flex: 100%;
     background-color: #3e3b92;
     color: white;
-    margin-top: 83px;
+    margin-top: 104px;
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
     line-height: 20px;
